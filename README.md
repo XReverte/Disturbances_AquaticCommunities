@@ -18,6 +18,6 @@ R_XReverte.R --> Sample code used for the project
 ## Contributions
 
 ## Tools
-Technologies: R
-Libraries:
-Machine Learning Models:
+- Technologies: R
+- Libraries:
+- Machine Learning Models:
