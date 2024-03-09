@@ -21,6 +21,7 @@ In the specific case of the lagoons of Alt Empordà, periods of flooding and con
 Initially, the environment experiences a rapid increase in nutrients, facilitating the proliferation of Synchaetta spp. (small organisms with a high reproduction rate under favorable conditions). Then, as nutrients become depleted, cyclopoids begin to dominate, maintaining dominance if there is a continuous flow of nutrients of low intensity. Otherwise, they are replaced by calanoids. Finally, only in very confined lagoons, depending on whether the conditions are eutrophic, oligotrophic, or intermediate, Brachionus plicatilis, Odessia maeotica, and Gammarus aequicauda become dominant, respectively.
 
 ![seccession_pattern](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/e1d9b12c-1036-4e69-b1a5-bc54d742c168)
+
 Conceptual model of the planktonic succession pattern in the confined and salt wetlands of the Empordà. Figure extracted from (Quintana et al., 2006, see bibliography within "Disturbances_XReverte.pdf).
 
 ## Goals
