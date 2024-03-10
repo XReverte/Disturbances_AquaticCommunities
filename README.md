@@ -25,8 +25,34 @@ Initially, the environment experiences a rapid increase in nutrients, facilitati
 Conceptual model of the planktonic succession pattern in the confined and salt wetlands of the Empordà. Figure extracted from (Quintana et al., 2006, see bibliography within "Disturbances_XReverte.pdf).
 
 ## Goals
+The main objective of the project is to understand the impact of different disturbances on the resilience of coastal ecosystems and the response of biological communities to these changes. It also aims to investigate the self-regulation mechanisms of ecosystems in response to these disturbances.
+
+Specifically, the project aims to:
+- Evaluate the effect of pulsatile and continuous disturbances, as well as their simultaneous combination, on the composition and structure of the aquatic community network of zooplankton in a coastal, brackish, and shallow lagoon located in the wetlands of La Pletera, in the Alt Empordà.
+- Understand the dynamics of the zooplankton community in the La Pletera wetlands and its vulnerabilities to different types of disturbances.
+- Provide relevant information for the development of more accurate conservation strategies aimed at protecting these habitats and their communities from potential future disturbances.
+
+![mesocosm](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/a9bc22ef-9661-47d5-96cd-bbfe76fb03a8)
+Location of the mesocosm installation area for sampling, highlighted in red on the maps. Topographic maps sourced from the Cartographic and Geological Institute of Catalonia (ICGC).
 
 ## Methodology
+### Experimental design
+This study is based on an experiment conducted by the EcoAqua research group (EcoAqua (SGR 548), 2017), aimed at evaluating the response of the aquatic community network of zooplankton in a Mediterranean coastal lagoon to various disturbances.
+
+For this purpose, different treatments were established:
+- Control (O): In this treatment, no nutrients were added to compare differences between treatments with and without nutrients.
+- Continuous (C): Nutrients were added daily to the water to simulate continuous disturbances or "press".
+- Pulsatile (P): This treatment simulated pulsatile disturbances by adding nutrients once at the beginning of the experiment (day 0 of sampling).
+- Pulsatile-Continuous Combination (PC): A treatment combining a lower-magnitude pulsatile disturbance with a continuous one, both of lower concentration. Half of the total nutrient concentration (P/2) was added on day 0 of sampling, and the other half was distributed over subsequent sampling days.
+
+With a total of 5 replicates, the study evaluates various parameters in water samples, such as ions, inorganic nutrients, alkalinity, water isotopes, among others. However, we focus solely on analyzing the response of zooplankton to different disturbances, through the analysis of changes in its abundance and composition.
+
+The experiment extended for almost 1 month, with periodic sampling on days: -3 (mesocosm installation), 0 (first day of nutrient addition [C and PC], unique to [C]), 1, 5, 11, 18, and 24.
+
+![treatments](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/408a8871-f769-4529-92f5-62118237a8ae)
+Graphical representation of the sampling facility.
+
+### Data analysis and processing
 
 ## Results and conclusions
 
