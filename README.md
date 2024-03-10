@@ -17,6 +17,7 @@ Climate change further exacerbates this situation. Rising sea levels contribute 
 There are two types of disturbances in natural ecosystems classified according to their intensity and persistence over time. These disturbances can be 'Pulsatile,' sudden and of high intensity, such as floods; or 'Press', continous and less intense, such as chemical spills and industrial waste. The effect of these disturbances varies depending on their nature and the resilience of the affected ecosystem. Resilience is directly related to ecosystem complexity: the greater the species diversity and richness, the more stable the community structure and the more regulatory mechanisms available.
 
 ![press_pulse](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/e2d6deb1-e64b-445a-8567-c4a1ef920310)
+
 Press/Pulse disturbances
 
 As long as the community structure is complex enough, pulsatile disturbances are usually not as impactful, and can even be beneficial if they are seasonal. In contrast, continuous disturbances, even if weak, if sufficiently persistent over time, can completely transform the community structure, leading the lagoon to a eutrophic state and favoring the dominance of opportunistic species, resulting in biodiversity loss.
