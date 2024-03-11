@@ -59,8 +59,39 @@ The experiment extended for almost 1 month, with periodic sampling on days: -3 (
 Graphical representation of the sampling facility.
 
 ### Data analysis and processing
+Firstly, data need to be balanced, ensuring that each mesocosm has observations both at the beginning (02/03/2020) and at the end of the experiment (29/03/2020), thus ensuring that the dataset is paired according to the sampling date. Biomass of different individuals is calculated using formulas that vary depending on the taxonomic group, based on the length and/or width of each individual. Only a few individuals of each taxon were measured, and the remaining measurements were extrapolated. Additionally, data are standardized to the same proportions since each measurement was taken from different sample volumes and dilutions.
+
+Principal Component Analysis (PCA) allows for the reduction of the number of studied variables (dimensionality), minimizing the loss of variability and facilitating data interpretation. Principal components, resulting from the linear combination of the original variables, are generated. These components are independent (orthogonal), thus avoiding information redundancy. Two types of PCA plots are used: PCA Scalling 1, suitable for studying objects (mesocosms in our case), and PCA Scalling 2, for studying the relationship between variables (species). PCA Scalling 1 has been selected, prioritizing the preservation of Euclidean distances of the objects relative to the original matrix, although it may lose accuracy in the angles of the variables represented as arrows.
+
+Analysis of Variance (ANOVA) examines the influence of one or more factors (categorical variables) on a response variable (continuous variable), analyzing the differences between the means of the response variable with respect to each of the factors (or groups). Assumptions of normality, homoscedasticity, and randomness must be met. Multifactorial ANOVA will be performed to study the structure of the zooplankton community, investigating whether abundance, richness, and taxonomic diversity vary according to the treatments used and the sampling date (initial and final).
+
+Before conducting ANOVA, a linear model is created to analyze the different parameters according to treatment and date, and to verify compliance with homogeneity and normality assumptions using Levene's and Shapiro-Wilk tests, respectively. For abundance and richness, data transformation using natural logarithm was necessary to achieve data normality.
 
 ## Results and conclusions
+### PCA
+In the PCA analysis, the first axis (PC1) explains 23.9% of variability, while PC2 explains 15.7%, representing nearly 40% of the total variability. According to the interpretation of the first pair of principal component axes, in the graph, we can identify three main groups of objects closely related to each other and with certain variables:
+
+The first group (blue) includes all initial observations and one final observation (O4f). These objects are closely related to each other and predominantly consist of Cyclopodia nauplii, Harpacticoida nauplii, Synchaeta spp., Calanoida copepods, and ostracods.
+
+The second group (red) consists of treatments with nutrient addition, whether pulsatile, continuous, or their combination. That is, all final observations not belonging to treatment O. There is a higher biomass of ostracod larvae, Scuticociliata, Chironomidae larvae, Brachionus plicatilis, and Cyclopodia copepods. This group is also relatively close to the taxa Hexarthra spp., Harpacticoida copepods, and Calanoida nauplii, indicating a significant abundance of these taxa as well.
+
+Samples from the third group (green) are characterized by higher biomass of Cyclopoida copepods + eggs, Calanoida copepods + eggs, mixotrophic ciliates, and Gammarus aequicauda. Similar to the previous group, these samples are also relatively close to the taxa Hexarthra spp., Harpacticoida copepods, and Calanoida nauplii, suggesting a certain abundance of these taxa as well. Basically, these samples correspond to the Control treatment (O) sampled at the end of the experiment.
+
+![PCA-finaaal](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/3fdd138c-61aa-4177-90c8-6cd0a0014eb1)
+Biplot of type scalling 1, which plots the first two axes (PC1 and PC2) of the biomass PCA. In red, we find the different variables (or taxa), and in black, the objects (or "SampleID").
+
+### ANOVA
+A significant interaction has been observed regarding the natural logarithm of individual abundance concerning the treatment applied and the sampling date. However, there is a lack of significance in the interaction (treatment:date). As can be seen in the graphical analysis, it is evident that abundance varies depending on the date, and it is also noticeable that it varies depending on the treatment. However, it does not seem that the variations in abundance between the initial and final samples differ according to the treatment applied.
+
+![abundance_table](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/17bdf0b2-b784-4498-b6fe-31df0ecc1f5c)
+Results of the analysis of variance of abundance regarding treatment, date, and the interaction "treatment:date". It details the degrees of freedom, the sum of squares of residuals, their mean, the F-value, and the P-value.
+
+![Boxplot_abundance](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/bb632b9d-0ebc-4a28-9ec9-a17f9f13535d)
+Box plot comparing individual abundances of each treatment based on the sampling date.
+
+A significant interaction has been observed in all combinations of ANOVA (treatment | date | treatment:date), both for the analysis of abundance and taxonomic richness. This indicates that both abundance and richness vary depending on the treatment used and the sampling date; furthermore, the variations between the initial and final samples differ depending on the treatment applied in both cases.
+
+
 
 ## Limitations
 
@@ -68,5 +99,5 @@ Graphical representation of the sampling facility.
 
 ## Tools
 - Technologies: R
-- Libraries:
+- Libraries: dyplr, reshape2, ade4, vegan, gclus, cluster, RColorBrewer, labdsv, ape, car, effects 
 - Machine Learning Models:
