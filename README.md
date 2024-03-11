@@ -83,22 +83,22 @@ Biplot of type scalling 1, which plots the first two axes (PC1 and PC2) of the b
 ### ANOVA
 A significant interaction has been observed regarding the natural logarithm of individual abundance concerning the treatment applied and the sampling date. However, there is a lack of significance in the interaction (treatment:date). As can be seen in the graphical analysis, it is evident that abundance varies depending on the date, and it is also noticeable that it varies depending on the treatment. However, it does not seem that the variations in abundance between the initial and final samples differ according to the treatment applied.
 
-![abundance_table](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/8cfbfbfc-ba96-4fc1-baa1-97a7e28bb7ce)
 Results of the analysis of variance of abundance regarding treatment, date, and the interaction "treatment:date". It details the degrees of freedom, the sum of squares of residuals, their mean, the F-value, and the P-value.
+![abundance_table](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/8cfbfbfc-ba96-4fc1-baa1-97a7e28bb7ce)
 
 ![Boxplot_abundance](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/bb632b9d-0ebc-4a28-9ec9-a17f9f13535d)
 Box plot comparing individual abundances of each treatment based on the sampling date.
 
 A significant interaction has been observed in all combinations of ANOVA (treatment | date | treatment:date), both for the analysis of abundance and taxonomic richness. This indicates that both abundance and richness vary depending on the treatment used and the sampling date; furthermore, the variations between the initial and final samples differ depending on the treatment applied in both cases.
 
-![richness_table](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/361adb7c-db2d-45fa-aa86-ddaf20c51c31)
 Results of the analysis of variance of richness regarding treatment, date, and the interaction "treatment:date". It details the degrees of freedom, the sum of squares of residuals, their mean, the F-value, and the P-value.
+![richness_table](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/361adb7c-db2d-45fa-aa86-ddaf20c51c31)
 
 ![Boxplot_Richness](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/035f82d6-2b4f-4e94-b1d7-4932acd0c2ef)
 Box plot comparing individual richness of each treatment based on the sampling date.
 
-![diversity_table](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/c61ee919-e532-4913-8f0f-ceb253293c10)
 Results of the analysis of variance of diversity regarding treatment, date, and the interaction "treatment:date". It details the degrees of freedom, the sum of squares of residuals, their mean, the F-value, and the P-value.
+![diversity_table](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/c61ee919-e532-4913-8f0f-ceb253293c10)
 
 ![Boxplot_diversity](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/6b7ac880-799e-44cc-be69-2801a4488e11)
 Box plot comparing individual diversity of each treatment based on the sampling date.
