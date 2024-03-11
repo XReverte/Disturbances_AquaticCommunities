@@ -83,7 +83,7 @@ Biplot of type scalling 1, which plots the first two axes (PC1 and PC2) of the b
 ### ANOVA
 A significant interaction has been observed regarding the natural logarithm of individual abundance concerning the treatment applied and the sampling date. However, there is a lack of significance in the interaction (treatment:date). As can be seen in the graphical analysis, it is evident that abundance varies depending on the date, and it is also noticeable that it varies depending on the treatment. However, it does not seem that the variations in abundance between the initial and final samples differ according to the treatment applied.
 
-Results of the analysis of variance of abundance regarding treatment, date, and the interaction "treatment:date". It details the degrees of freedom, the sum of squares of residuals, their mean, the F-value, and the P-value.
+Results of the analysis of variance of abundance regarding treatment, date, and the interaction "treatment:date". It details the degrees of freedom, the sum of squares of residuals, their mean, the F-value, and the P-value:
 ![abundance_table](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/8cfbfbfc-ba96-4fc1-baa1-97a7e28bb7ce)
 
 ![Boxplot_abundance](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/bb632b9d-0ebc-4a28-9ec9-a17f9f13535d)
@@ -91,20 +91,35 @@ Box plot comparing individual abundances of each treatment based on the sampling
 
 A significant interaction has been observed in all combinations of ANOVA (treatment | date | treatment:date), both for the analysis of abundance and taxonomic richness. This indicates that both abundance and richness vary depending on the treatment used and the sampling date; furthermore, the variations between the initial and final samples differ depending on the treatment applied in both cases.
 
-Results of the analysis of variance of richness regarding treatment, date, and the interaction "treatment:date". It details the degrees of freedom, the sum of squares of residuals, their mean, the F-value, and the P-value.
+Results of the analysis of variance of richness regarding treatment, date, and the interaction "treatment:date". It details the degrees of freedom, the sum of squares of residuals, their mean, the F-value, and the P-value:
 ![richness_table](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/361adb7c-db2d-45fa-aa86-ddaf20c51c31)
 
 ![Boxplot_Richness](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/035f82d6-2b4f-4e94-b1d7-4932acd0c2ef)
 Box plot comparing individual richness of each treatment based on the sampling date.
 
-Results of the analysis of variance of diversity regarding treatment, date, and the interaction "treatment:date". It details the degrees of freedom, the sum of squares of residuals, their mean, the F-value, and the P-value.
+Results of the analysis of variance of diversity regarding treatment, date, and the interaction "treatment:date". It details the degrees of freedom, the sum of squares of residuals, their mean, the F-value, and the P-value:
 ![diversity_table](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/c61ee919-e532-4913-8f0f-ceb253293c10)
 
 ![Boxplot_diversity](https://github.com/XReverte/Disturbances_AquaticCommunities/assets/100844285/6b7ac880-799e-44cc-be69-2801a4488e11)
 Box plot comparing individual diversity of each treatment based on the sampling date.
 
+### Discussion
+The results indicate that the taxonomic diversity of the initial samples, before applying any treatment (blue group), was abnormally low: they exhibited a Shannon-Weaver specific diversity index H=0.19, when a value close to 1 was expected according to (Badosa et al., 2006).
+
+We observe a very well-defined group consisting of those samples to which nutrients were injected (red), clearly differentiated from the other groups, confirming that any nutrient injection affects the direction that the community structure would take under normal conditions.
+
+The fact that the community structure varies without employing any treatment suggests that there must be some regulating element that was not taken into account in the experiment, probably involving a pattern of plankton successions common in similar habitats.
+
+The findings that the initial samplings indicate low diversity and the presence of organisms at each succession level (Synchaeta, Cyclopodia, Calanoida, and Harpacticoida), as well as the significant increase in biodiversity in the final control samples and their containing only the last 3 succession states, indicate that shortly before the experiment preparation, a flood may have occurred, triggering the observed succession pattern.
+
+The pulsatile treatment is the one that has most affected the aquatic community network, hindering the growth of abundance, richness, and taxonomic diversity. In fact, these parameters have hardly varied compared to the initial samples, contrary to the trend of growth in the other treatments. The biodiversity of the samples is not high enough, nor is the community structure complex and stratified enough to present sufficient resilience to withstand these pulsatile disturbances.
+
+The continuous treatment, although not as much as in the case of the pulsatile one, has also resulted in a notable reduction in the increase of individual abundance and taxonomic richness and diversity compared to the control.
+
+This is not the case for the pulsatile + continuous treatment, where abnormal increases in richness and taxonomic diversity are observed, even greater than those of the control. This could be due to the fact that the concentration of the pulsatile part of the treatment has not been sufficient to restart the succession chain, and that the concentration of the continuous part has been low enough to sustain organism diversity without harming the community structure.
 
 ## Limitations
+
 
 ## Contributions
 
