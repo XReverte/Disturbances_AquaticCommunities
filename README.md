@@ -135,6 +135,5 @@ Another notable contribution is the evaluation of the **effectiveness of differe
 Lastly, this study highlights the importance of considering factors such as the duration of the experiment, sample size, and complexity of treatments in future research, thus providing a solid **foundation for** the design and execution of more comprehensive and accurate studies in **the future**.
 
 ## Tools
-- Technologies: R
+- Technologies: R | PCA | Multifactorial ANOVA
 - Libraries: dyplr, reshape2, ade4, vegan, gclus, cluster, RColorBrewer, labdsv, ape, car, effects 
-- Machine Learning Models:
